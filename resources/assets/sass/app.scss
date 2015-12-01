@@ -1,0 +1,171 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "floating_label_input";
+
+
+body {
+  font-family: "Lato", "Helvetica Neue", sans-serif;
+  font-size: 16px/24px;
+}
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.wrapper > #hackerBackground {
+  position: relative;
+  height: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-image: url("/img/splash.jpg");
+  background-size: cover;
+}
+.wrapper > .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.wrapper .translucentBlue {
+  background: rgba($hackerBlue, .5)
+}
+.wrapper > .content {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  width: 100%;
+  padding: 16px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+  font-family: inherit;
+}
+.wrapper > .content > #logo {
+  position: relative;
+  max-width: 360px;
+  width: 100%;
+  z-index: 3;
+  margin-bottom: 42px;
+  @include min-bp(490px) {
+    margin-bottom: 72px;
+    max-width: 420px;
+  }
+}
+
+.content .tagline {
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: $bold;
+  margin-bottom: 24px;
+  @include min-bp(490px) {
+    font-size: 1.6em;
+  }
+}
+.button {
+  background: $lightGreen;
+  color: white;
+  display: inline-block;
+  font-weight: $extrabold;
+  border: none;
+  line-height: 1em;
+  font-size: 1.1em;
+  padding: 16px 36px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background .2s;
+  margin-bottom: 12px;
+  &.register {
+  }
+  &.sponsor {
+    background: $lightYellow;
+  }
+  &:hover {
+    background: $darkGreen;
+    &.sponsor {
+      background: $darkYellow;
+    }
+  }
+  @include min-bp(490px) {
+    display: inline-block;
+    &.register {
+      margin-right: 4px;
+    }
+    &.sponsor {
+      margin-left: 4px;
+    }
+  }
+}
+
+.super_impose{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(#ffffff, .98);
+  opacity: .2;
+  z-index: 10;
+  transform: translate(0, -100%);
+  transition: all .1s ease-in-out;
+  &.active {
+    background: rgba(255, 251, 241, 0.95);
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  .form-content {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 480px;
+    padding: 0 16px;
+    .title {
+      font-size: 3em;
+      color: $hackerBlue;
+      line-height: 1em;
+      margin: 0 0 16px;
+    }
+    .brah {
+      font-size: 1.1em;
+      color: #414141;
+      font-weight: $light;
+      line-height: 1.3em;
+      margin: 0 0 24px;
+    }
+  }
+  .input-field {
+    @extend %floating-label-input-field;
+    input[type="text"], input[type="email"] {
+      border: none;
+      background: rgba(white, 0);
+      border-bottom: 1px solid $inputBorderBottomColor;
+      font-size: 1.5em;
+      padding: 12px 8px;
+    }
+    margin-bottom: 24px;
+  }
+  .form-actions {
+    .button{
+      &.cancel {
+        background: #f96166;
+      }
+    }
+  }
+}
