@@ -8,14 +8,14 @@
         <meta property="og:site_name" content="MangoHacks">
         <meta property="og:url" content="http://mangohacks.com" />
         <meta name="description" content="MangoHacks is a 36-hour Hackathon at Florida International University">
-        <link type="text/css" rel="stylesheet" href="/css/styles.css">
+        <link type="text/css" rel="stylesheet" href="/css/app.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
     </head>
 <body>
 @yield('content')
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/js/scripts.js"></script>
+<script src="/js/main.js"></script>
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
