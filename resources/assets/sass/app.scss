@@ -1,10 +1,11 @@
-@import "reset";
-@import "variables";
-@import "mixins";
+@import "base/reset";
+@import "base/fonts";
+@import "base/variables";
+@import "base/mixins";
 @import "floating_label_input";
 
 body {
-  font-family: "Lato", "Helvetica Neue", sans-serif;
+  font-family: "Gotham", "Helvetica Neue", sans-serif;
   font-size: 16px/24px;
 }
 
@@ -79,7 +80,7 @@ body {
   background: $lightGreen;
   color: white;
   display: inline-block;
-  font-weight: $extrabold;
+  font-weight: $bold;
   border: none;
   line-height: 1em;
   font-size: 1.1em;
