@@ -551,6 +551,15 @@ body {
   z-index: 3;
   text-align: center;
   font-family: inherit; }
+  .wrapper > .content .social_media {
+    margin-top: 36px; }
+    .wrapper > .content .social_media a {
+      display: inline-block;
+      padding: 4px 20px;
+      color: white;
+      text-decoration: none;
+      font-size: 2.2em;
+      line-height: 1em; }
 
 .wrapper > .content > #logo {
   position: relative;
