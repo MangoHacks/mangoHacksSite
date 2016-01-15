@@ -1,7 +1,15 @@
 @extends('layouts.master')
+
+@section('head_actions')
+    <script>
+        var csrf_token = '{{ csrf_token() }}';
+    </script>
+@endsection
+
 @section('body-class', 'class="home"')
 
 @section('content')
+<div id="app">
     <div class="wrapper">
         <div id="hackerBackground"></div>
         <div class="overlay translucentBlue"></div>
@@ -11,6 +19,14 @@
             <div class="actions">
                 <a href="#" class="button register">Pre Register</a>
                 <a href="mailto:team@mangohacks.com" class="button sponsor">Sponsor Us</a>
+            </div>
+            <div class="social_media">
+                <a target="_blank" href="https://www.facebook.com/MangoHacks">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+                <a target="_blank" href="https://twitter.com/fiumangohacks">
+                    <i class="fa fa-twitter"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -39,4 +55,5 @@
         </div>
     </div>
     <!--End mc_embed_signup-->
+</div>
 @endsection
