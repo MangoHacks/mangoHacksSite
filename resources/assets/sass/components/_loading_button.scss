@@ -1,0 +1,46 @@
+@-webkit-keyframes animation-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes animation-rotate {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes animation-rotate {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes animation-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button--loading {
+  position: relative;
+  color: transparent !important;
+  &:before {
+    content: '';
+    margin: -13px 0 0 -13px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-border-radius: 24px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 24px;
+    -moz-background-clip: padding;
+    border-radius: 24px;
+    background-clip: padding-box;
+    border: rgba(255, 255, 255, 0.25) 2px solid;
+    border-top-color: #ffffff;
+    -webkit-animation: animation-rotate 750ms linear infinite;
+    -moz-animation: animation-rotate 750ms linear infinite;
+    -o-animation: animation-rotate 750ms linear infinite;
+    animation: animation-rotate 750ms linear infinite;
+  }
+}

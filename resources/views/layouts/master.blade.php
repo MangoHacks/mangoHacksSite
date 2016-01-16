@@ -8,6 +8,7 @@
         <meta property="og:site_name" content="MangoHacks">
         <meta property="og:url" content="http://mangohacks.com" />
         <meta name="description" content="MangoHacks is a 36-hour Hackathon at Florida International University">
+        <meta id="token" name="token" content="{{ csrf_token() }}">
         <link type="text/css" rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>

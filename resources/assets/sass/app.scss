@@ -2,6 +2,7 @@
 @import "base/fonts";
 @import "base/variables";
 @import "base/mixins";
+@import "components/loading_button";
 @import "floating_label_input";
 
 body {
@@ -173,11 +174,20 @@ body {
     }
     margin-bottom: 24px;
   }
-  .form-actions {
-    .button{
-      &.cancel {
-        background: #f96166;
-      }
+  .button{
+    &.cancel {
+      background: #f96166;
+    }
+  }
+  .message {
+    font-size: 1.2em;
+    background: rgba(4, 193, 85, 0.97);
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+    a {
+      color: #FFFFFF;
+      font-weight: bold;
     }
   }
 }

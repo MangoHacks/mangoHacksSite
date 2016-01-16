@@ -472,6 +472,37 @@ th {
 /** Variables **/
 /* Mobile First Breakpoints */
 /* Desktop First Breakpoints */
+@-webkit-keyframes animation-rotate {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes animation-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+.button--loading {
+  position: relative;
+  color: transparent !important; }
+  .button--loading:before {
+    content: '';
+    margin: -13px 0 0 -13px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-border-radius: 24px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 24px;
+    -moz-background-clip: padding;
+    border-radius: 24px;
+    background-clip: padding-box;
+    border: rgba(255, 255, 255, 0.25) 2px solid;
+    border-top-color: #ffffff;
+    -webkit-animation: animation-rotate 750ms linear infinite;
+    animation: animation-rotate 750ms linear infinite; }
+
 .super_impose .input-field {
   position: relative; }
   .super_impose .input-field input[type="text"], .super_impose .input-field input[type="email"] {
@@ -655,7 +686,16 @@ body {
       border-bottom: 1px solid #bdbdbd;
       font-size: 1.5em;
       padding: 12px 8px; }
-  .super_impose .form-actions .button.cancel {
+  .super_impose .button.cancel {
     background: #f96166; }
+  .super_impose .message {
+    font-size: 1.2em;
+    background: rgba(4, 193, 85, 0.97);
+    padding: 16px;
+    border-radius: 5px;
+    color: white; }
+    .super_impose .message a {
+      color: #FFFFFF;
+      font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */
