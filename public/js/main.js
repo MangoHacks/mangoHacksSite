@@ -11395,6 +11395,20 @@ $(document).ready(function () {
       });
     }
   });
+  $('.main-button.sponsor').on('click', function (e) {
+    if (this.hash) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    }
+  });
 });
 
 },{"./components/PreRegisterModal.vue":27,"vue":26,"vue-resource":15}]},{},[28]);

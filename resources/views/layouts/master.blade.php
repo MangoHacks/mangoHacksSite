@@ -25,7 +25,7 @@
                 <a href="#about">About</a>
                 <a href="#faq">FAQs</a>
                 <a href="#sponsors">Sponsors</a>
-                <a href="#">Register</a>
+                <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
             </div>
         </div>
     </div>

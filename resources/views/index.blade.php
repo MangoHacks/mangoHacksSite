@@ -18,8 +18,8 @@
             <img id="logo" src="/img/logo.png">
             <div class="tagline">36 Hours | Florida International University | March 4 - 6, 2016</div>
             <div class="actions">
-                <a @click="onExternalModal" href="#" class="button register">Pre Register</a>
-                <a href="mailto:team@mangohacks.com" class="button sponsor">Sponsor Us</a>
+                <a href="https://mangohacks.typeform.com/to/MsmTv9" class="button register">Pre Register</a>
+                <a href="#sponsors" class="button sponsor main-button">Sponsor Us</a>
             </div>
             <div class="social_media">
                 <a target="_blank" href="https://www.facebook.com/MangoHacks">
@@ -101,12 +101,8 @@
                 <div class="faq">
                     <h3>When and where?</h3>
                     <p>
-                        Don’t worry, this is not the kind of place where you break into a
-                        bank or do something illegal.
-                    </p>
-                    <p>
                         MangoHacks ’16 will take place at Florida International University’s
-                        PG6 Tech Station from March 4th to 6th. <a href="https://goo.gl/maps/iNav35kcQAN2">(Get Directions)</a>
+                        PG6 Tech Station from March 4th to 6th. <a href="https://goo.gl/maps/iNav35kcQAN2">Get Directions</a>
                     </p>
                 </div>
 
@@ -126,7 +122,7 @@
                         year is welcome to participate. If it has been a while since you were a
                         student you can still participate as a mentor for the attendees.
                         <br>
-                        <a href="#">Sign up to be a mentor</a>
+                        <a href="https://mangohacks.typeform.com/to/Kf6671">Sign up to be a mentor</a>
                     </p>
                 </div>
 
@@ -176,7 +172,7 @@
                         Don’t be afraid if you don’t think you have enough experience, a team or an idea.
                         A hackathon is meant for learning, in fact we’re even having a track for beginners
                         to learn (see <a href="#">Green Track</a>). We’ll have great mentors and tools to help you with
-                        development, ideas, and everything in between as well as workshop where you can
+                        development, ideas, and everything in between as well as workshops where you can
                         pick up all kinds of skills.
                     </p>
                 </div>
@@ -186,7 +182,7 @@
                     <p>
                         Driving, Flying, Swimming… however you can! We’d love to have anyone who really
                         wants to come, and if you need help figuring out a way that works, let us know at <a href="mailto:team@mangohacks.com">team@mangohacks.com</a>.
-                        We’ll be sending a bus schools in North Florida making stops at the schools with
+                        We’ll be sending a bus to schools in North Florida making stops at the schools with
                         the most hackers, so get your friends to apply too. We also encourage car
                         pooling because who doesn’t love a road trip?
                     </p>
@@ -195,9 +191,7 @@
                 <div class="faq">
                     <h3>Registration Process?</h3>
                     <p>
-                        You can pre-register now, and we’ll let you know when applications open.
-                        Once applications are up, you can register and we’ll roll out decisions in a
-                        rolling basis.
+                        After you register we’ll send out confirmation emails for you to reserve a spot.
                     </p>
                 </div>
 
@@ -275,7 +269,7 @@
           <h2 class="heading mb-lg">Register</h2>
 
           <p>
-            It's time. <a href="#">Register today</a> and be sweet with us.
+            It's time. <a href="https://mangohacks.typeform.com/to/MsmTv9">Register today</a> and be sweet with us.
           </p>
         </div>
     </div>
