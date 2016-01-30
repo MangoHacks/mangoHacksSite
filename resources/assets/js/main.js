@@ -20,16 +20,21 @@ new Vue({
     }
 });
 
-//$(document).ready(function(){
-//    var $modal = $('#signup-form');
-//
-//    $('.button.register').on('click', function(e){
-//        e.preventDefault();
-//        $modal.addClass('active');
-//    });
-//
-//    $('.button.cancel').on('click', function(e){
-//        e.preventDefault();
-//        $modal.removeClass('active');
-//    });
-//});
+$(document).ready(function(){
+  $('.nav').sticky();
+
+  $('.nav a[href^="#"]').on('click',function (e) {
+    if(this.hash){
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    }
+  });
+});

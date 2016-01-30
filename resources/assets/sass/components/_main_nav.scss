@@ -1,0 +1,59 @@
+.nav {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  padding: 8px 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: block;
+    max-width: 110px;
+  }
+  .menu {
+    a {
+      color: white;
+      display: inline-block;
+      font-weight: $bold;
+      padding: 6px 8px;
+    }
+  }
+}
+.sticky-wrapper {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  .nav {
+    background: rgba(white,0);
+    transition: background .3s ease-in-out;
+    .logo {
+      opacity: 0;
+      transition: opacity .3s ease-in-out;
+    }
+  }
+  &.is-sticky {
+    .nav {
+      background: rgba($hackerBlue, .8);
+      .logo {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+#mlh-trust-badge {
+  display: none;
+  @include min-bp(960px){
+    position:fixed;
+    top:0;
+    right:50px;
+    max-width:100px;
+    width:10%;
+    min-width: 60px;
+    display:block;
+    z-index:10;
+  }
+}

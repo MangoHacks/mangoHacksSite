@@ -11363,34 +11363,39 @@ Vue.use(require('vue-resource'));
 Vue.http.headers.common['X-CSRF-TOKEN'] = document.querySelector('#token').getAttribute('content');
 
 new Vue({
-    el: '#app',
-    components: {
-        PreRegisterModal: _PreRegisterModal2.default
-    },
-    methods: {
-        onExternalModal: function onExternalModal(e) {
-            e.preventDefault();
-            this.$broadcast('external-modal-open');
-        }
-    },
-    ready: function ready() {
-        console.log('ready');
+  el: '#app',
+  components: {
+    PreRegisterModal: _PreRegisterModal2.default
+  },
+  methods: {
+    onExternalModal: function onExternalModal(e) {
+      e.preventDefault();
+      this.$broadcast('external-modal-open');
     }
+  },
+  ready: function ready() {
+    console.log('ready');
+  }
 });
 
-//$(document).ready(function(){
-//    var $modal = $('#signup-form');
-//
-//    $('.button.register').on('click', function(e){
-//        e.preventDefault();
-//        $modal.addClass('active');
-//    });
-//
-//    $('.button.cancel').on('click', function(e){
-//        e.preventDefault();
-//        $modal.removeClass('active');
-//    });
-//});
+$(document).ready(function () {
+  $('.nav').sticky();
+
+  $('.nav a[href^="#"]').on('click', function (e) {
+    if (this.hash) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      });
+    }
+  });
+});
 
 },{"./components/PreRegisterModal.vue":27,"vue":26,"vue-resource":15}]},{},[28]);
 

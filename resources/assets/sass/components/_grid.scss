@@ -1,0 +1,10 @@
+.grid {
+  .row {
+    display: flex;
+    align-items: center;
+    user-select: space-around;
+    .col-6 {
+      flex: 1 1 50%;
+    }
+  }
+}
