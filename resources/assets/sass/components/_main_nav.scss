@@ -46,7 +46,7 @@
 
 #mlh-trust-badge {
   display: none;
-  @include min-bp(960px){
+  @include min-bp(1024px) {
     position:fixed;
     top:0;
     right:50px;

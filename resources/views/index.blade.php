@@ -18,7 +18,7 @@
             <img id="logo" src="/img/logo.png">
             <div class="tagline">36 Hours | Florida International University | March 4 - 6, 2016</div>
             <div class="actions">
-                <a href="https://mangohacks.typeform.com/to/MsmTv9" class="button register">Pre Register</a>
+                <a href="https://mangohacks.typeform.com/to/MsmTv9" class="button register">Register!</a>
                 <a href="#sponsors" class="button sponsor main-button">Sponsor Us</a>
             </div>
             <div class="social_media">
@@ -256,6 +256,9 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-6">
+                        <img class="logo acm" src="/img/logos/scis.jpg" alt="SCIS">
+                    </div>
                     <div class="col-6">
                         <img class="logo acm" src="/img/logos/acm.png" alt="ACM">
                     </div>

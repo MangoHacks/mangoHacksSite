@@ -676,7 +676,7 @@ a {
 
 #mlh-trust-badge {
   display: none; }
-  @media (min-width: 960px) {
+  @media (min-width: 1024px) {
     #mlh-trust-badge {
       position: fixed;
       top: 0;
@@ -895,7 +895,7 @@ a {
       opacity: .8; }
 
 .footer {
-  background: #2b2b2b;
+  background: #10356E;
   padding: 40px 0;
   text-align: center;
   color: white; }
