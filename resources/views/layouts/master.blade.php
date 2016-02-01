@@ -5,7 +5,7 @@
         <title>MangoHacks '16 at FIU</title>
         <link rel="icon" type="image/png" href="/img/logo_alone.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:image" content="/img/fb_splash.jpg">
+        <meta property="og:image" content="/img/fb_splash2.jpg">
         <meta property="og:site_name" content="MangoHacks">
         <meta property="og:url" content="http://mangohacks.com" />
         <meta name="description" content="MangoHacks is a 36-hour Hackathon at Florida International University">
