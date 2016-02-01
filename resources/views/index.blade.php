@@ -57,7 +57,7 @@
             </p>
 
             <p>
-                We want to welcome everyone - from the most experienced hackers and builders
+                We welcome everyone - from the most experienced hackers and builders
                 to the thinkers and the curious who have never heard of a hackathon. Regardless
                 of your experience, there is something for you at MangoHacks. Come learn something
                 new, solve problems, and build something cool.
@@ -65,7 +65,7 @@
 
             <p>
                 We’re introducing flavored tracks as ways to enhance your hackathon experience.
-                First timer or newbie? We’ve got you covered, you’ll learn something with our
+                First timer or newbie? We’ve got you covered - you’ll learn something with our
                 <a href="#">Green Track</a>. More into the entrepreneurial side? That’s cool
                 too, explore the possibilities of your venture with the <a href="#">Yellow Track</a>. Feel
                 like improving the world? Join everyone on the <a href="#">Red Track</a> and discover great
@@ -91,8 +91,8 @@
                 </p>
                 <p>
                     At MangoHacks we welcome you to take the things you love (sports, art,
-                    traveling, dogs!) and combine it with techonology to make something different,
-                    something cool. A hackathon is an awesome place to push yourself, learn
+                    traveling, dogs!) or care about (poverty, sea level rise, hunger) and combine it with techonology to make something different,
+                    something cool, or something to improve the world. A hackathon is an awesome place to push yourself, learn
                     new skills, and meet amazing people.
                 </p>
             </div>
@@ -118,7 +118,7 @@
                 <div class="faq">
                     <h3>Who can come?</h3>
                     <p>
-                        Anyone that is currently a college student or that graduated in the past
+                        Anyone who is currently a college student or who graduated in the past
                         year is welcome to participate. If it has been a while since you were a
                         student you can still participate as a mentor for the attendees.
                         <br>
@@ -129,8 +129,8 @@
                 <div class="faq">
                     <h3>Food? Oh yeah</h3>
                     <p>
-                        Lots of it. Free too! We’ll make you feel right at home. Enough food to
-                        keep you going for the entire 36 hours, and then some. Caffeine, energy drinks,
+                        Lots of it. Free, too! We’ll make you feel right at home. Enough food to
+                        keep you going for the entire 36 hours and then some. Caffeine, energy drinks,
                         snacks and all. We’ve got you. If you have special needs, it’s all good too.
                         Did we mention there’ll be lots of food?
                     </p>
@@ -141,7 +141,7 @@
                     <p>
                         It’s no biggie. You can hack solo, but the more the merrier.
                         You can join a team of up to four people. You don’t need to have a team
-                        ready before the event - there will be amazing people that you can join at
+                        ready before the event - there will be amazing people who you can join at
                         the event. If you have some friends in mind though, you’re more than welcome
                         to stay together.
                     </p>
@@ -154,14 +154,14 @@
                         Laptop, chargers, phone, the basics. You’ll probably also want to bring
                         some basic hygiene products (toothbrush/toothpase, deodorant, a change
                         of clothes) and anything to keep you fresh through the weekend. A sleeping
-                        bag might be cool too if you plan on getting some sleep.
+                        bag might be cool, too, if you plan on getting some sleep.
                     </p>
                 </div>
 
                 <div class="faq">
                     <h3>How much does it cost?</h3>
                     <p>
-                        ZERO! FREE! Nada. Zip. $0. Everything we privide will be free, so
+                        ZERO! FREE! Nada. Zip. $0. Everything we provide will be free, so
                         you only need to worry about what you’ll achieve during the weekend.
                     </p>
                 </div>
@@ -170,7 +170,7 @@
                     <h3>How much experience do I need?</h3>
                     <p>
                         Don’t be afraid if you don’t think you have enough experience, a team or an idea.
-                        A hackathon is meant for learning, in fact we’re even having a track for beginners
+                        A hackathon is meant for learnin - in fact we’re even having a track for beginners
                         to learn (see <a href="#">Green Track</a>). We’ll have great mentors and tools to help you with
                         development, ideas, and everything in between as well as workshops where you can
                         pick up all kinds of skills.
@@ -182,7 +182,7 @@
                     <p>
                         Driving, Flying, Swimming… however you can! We’d love to have anyone who really
                         wants to come, and if you need help figuring out a way that works, let us know at <a href="mailto:team@mangohacks.com">team@mangohacks.com</a>.
-                        We’ll be sending a bus to schools in North Florida making stops at the schools with
+                        We are sending a bus to schools in North Florida and will make stops at the schools with
                         the most hackers, so get your friends to apply too. We also encourage car
                         pooling because who doesn’t love a road trip?
                     </p>
@@ -198,9 +198,9 @@
                 <div class="faq">
                     <h3>Can I submit and older project?</h3>
                     <p>
-                        We want MangoHacks to be a fair opportunity for everyone. So we ask that
+                        We want MangoHacks to be a fair opportunity for everyone, so we ask that
                         no code that will be part of a project is written before the event. You’re
-                        are welcome to come with an idea and a plan though. Plus, making something
+                        are welcome to come with an idea and a plan, though. Plus, making something
                         completely new is pretty sweet.
                     </p>
                 </div>

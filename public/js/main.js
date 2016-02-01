@@ -11379,9 +11379,29 @@ new Vue({
 });
 
 $(document).ready(function () {
+  var $nav = $('.nav .menu');
+
   $('.nav').sticky();
 
-  $('.nav a[href^="#"]').on('click', function (e) {
+  $('.mobile-trigger').on('click', function (e) {
+    e.preventDefault();
+    if (!$nav.hasClass('active')) {
+      $nav.addClass('active');
+      $('.mobile-trigger').removeClass('active');
+      $('.mobile-close').addClass('active');
+    }
+  });
+
+  $('.mobile-close').on('click', function (e) {
+    e.preventDefault();
+    if ($nav.hasClass('active')) {
+      $nav.removeClass('active');
+      $('.mobile-trigger').addClass('active');
+      $('.mobile-close').removeClass('active');
+    }
+  });
+
+  $('.nav .menu a[href^="#"]').on('click', function (e) {
     if (this.hash) {
       e.preventDefault();
 

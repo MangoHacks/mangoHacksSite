@@ -27,6 +27,8 @@
                 <a href="#sponsors">Sponsors</a>
                 <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
             </div>
+            <a class="mobile-trigger active" href="#" id="small-menu"><i class="fa fa-bars"></i></a>
+            <a class="mobile-close" href="#"><i class="fa fa-times"></i></a>
         </div>
     </div>
 

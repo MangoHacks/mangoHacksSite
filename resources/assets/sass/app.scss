@@ -46,12 +46,14 @@ a {
   top: 47%;
   left: 50%;
   width: 100%;
-  padding: 16px;
+  padding: 70px 16px 0 16px;
   transform: translate(-50%, -50%);
   z-index: 3;
   text-align: center;
   font-family: inherit;
-
+  @include min-bp(490px) {
+      padding: 16px;
+  }
   .social_media {
     margin-top: 36px;
     a {
@@ -202,7 +204,7 @@ a {
       line-height:1.5em;
     }
   }
-  @include min-bp(640px) {
+  @include min-bp(490px) {
     .row {
       display: flex;
       flex-wrap: wrap;
@@ -299,8 +301,11 @@ a {
   }
   .logo {
     max-width: 320px;
+    width: 100%;
+    padding: 10px;
     &.acm {
-      padding:80px 0 40px;
+      padding-top:80px;
+      padding: 40px;
     }
   }
 }
