@@ -215,7 +215,7 @@
                 </div>
 
                 <div class="faq">
-                    <h3>Can I submit and older project?</h3>
+                    <h3>Can I submit an older project?</h3>
                     <p>
                         We want MangoHacks to be a fair opportunity for everyone, so we ask that
                         no code that will be part of a project is written before the event. You’re
