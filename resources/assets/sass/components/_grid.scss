@@ -1,0 +1,12 @@
+.grid {
+    .row {
+        display: flex;
+        align-items: center;
+        user-select: space-around;
+        .col-6 {
+            @include min-bp(640px) {
+                flex: 1 1 50%;
+            }
+        }
+    }
+}

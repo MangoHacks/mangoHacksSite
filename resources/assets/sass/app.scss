@@ -1,35 +1,33 @@
+@import "base/variables";
 @import "base/reset";
 @import "base/fonts";
-@import "base/variables";
 @import "base/mixins";
+@import "components/grid";
+@import "components/loading_button";
 @import "floating_label_input";
 
 body {
-  font-family: "Gotham", "Helvetica Neue", sans-serif;
-  font-size: 16px/24px;
-}
-
-html {
-  height: 100%;
-}
-body {
   margin: 0px;
   padding: 0px;
-  min-height: 100%;
+  font-family: "Gotham", "Helvetica Neue", sans-serif;
+  font-size: 16px/24px;
+  color: #545454;
+}
+
+a {
+  text-decoration: none;
 }
 
 .wrapper {
-  min-height: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 0;
 }
 
 .wrapper > #hackerBackground {
   position: relative;
   height: 100%;
-  height: 100vh;
   z-index: 1;
-  background-image: url("/img/splash.jpg");
+  background-image: url("/img/pg6.jpg");
   background-size: cover;
 }
 .wrapper > .overlay {
@@ -48,12 +46,14 @@ body {
   top: 47%;
   left: 50%;
   width: 100%;
-  padding: 16px;
+  padding: 70px 16px 0 16px;
   transform: translate(-50%, -50%);
   z-index: 3;
   text-align: center;
   font-family: inherit;
-
+  @include min-bp(490px) {
+      padding: 16px;
+  }
   .social_media {
     margin-top: 36px;
     a {
@@ -88,6 +88,178 @@ body {
     font-size: 1.6em;
   }
 }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+@import "components/main_nav";
+
+
+.heading {
+  font-size: 42px;
+  margin-top: 0;
+  text-align: center;
+  &.mb-lg {
+    margin-bottom: 62px;
+  }
+  &:after {
+    content: '';
+    display: block;
+    height: 5px;
+    background: $darkGreen;
+    max-width: 70px;
+    margin: 8px auto 0;
+  }
+}
+
+.about-wrap {
+  p {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  padding: 80px 0;
+  @include min-bp(490px) {
+    padding: 124px 0;
+    p {
+      font-size: 22px;
+      line-height: 1.6em;
+    }
+  }
+}
+
+.what-wrap {
+  background: url('/img/splash.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  padding: 80px 0;
+  .heading {
+    color: white;
+    margin-bottom: 52px;
+    &:after {
+      background: white;
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba($mangoRed, .85);
+  }
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.4em;
+    margin-bottom: 24px;
+  }
+  @include min-bp(490px) {
+    padding: 124px 0;
+    p {
+      font-size: 22px;
+      line-height: 1.5em;
+    }
+  }
+  a {
+    color: white;
+    font-weight: $bold;
+    opacity: 1;
+    text-decoration: underline;
+    transition: opacity .2s ease-in-out;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+.faqs-wrap {
+  padding: 80px 0;
+  .heading {
+    flex: 1 1 100%;
+  }
+  .faq {
+    margin-bottom: 52px;
+    h3 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.4em;
+    }
+  }
+  @include min-bp(490px) {
+    padding: 124px 0;
+    .faq p {
+      font-size: 20px;
+      line-height:1.5em;
+    }
+  }
+  @include min-bp(490px) {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      .faq {
+        flex: 1 1 50%;
+        padding: 0 16px;
+        &:nth-of-type(2n){
+          padding-right: 0;
+        }
+        &:nth-of-type(2n-1){
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.sponsors-wrap {
+  background: $hackerBlue;
+  padding: 80px 0;
+  @include min-bp(490px) {
+    padding: 124px 0;
+  }
+  .heading {
+    color: white;
+    &:after {
+      background: white;
+    }
+  }
+  .interest {
+    font-size: 32px;
+    color: white;
+  }
+  .sell {
+    color: white;
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+}
+
+.partners-wrap {
+  p {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  padding: 80px 0 40px;
+  @include min-bp(490px) {
+    padding: 124px 0 60px;
+    p {
+      font-size: 26px;
+      line-height: 1.6em;
+    }
+  }
+}
+
 .button {
   background: $lightGreen;
   color: white;
@@ -119,6 +291,91 @@ body {
     }
     &.sponsor {
       margin-left: 4px;
+    }
+  }
+}
+
+.partners-wrap {
+  .col-6 {
+    text-align: center;
+  }
+  .logo {
+    max-width: 320px;
+    width: 100%;
+    padding: 10px;
+    &.acm {
+      padding-top:80px;
+      padding: 40px;
+    }
+  }
+}
+
+.register-wrap {
+  // background: $darkGreen;
+  padding: 64px 0;
+
+  background: url('/img/pg6.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba($darkYellow, .65);
+  }
+
+  @include min-bp(490px) {
+    padding: 80px 0;
+  }
+  .heading {
+    color: white;
+    &:after {
+      background: white;
+    }
+  }
+  p {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+  }
+  a {
+    color: white;
+    font-weight: $bold;
+    opacity: 1;
+    text-decoration: underline;
+    transition: opacity .2s ease-in-out;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+.footer {
+  background: $hackerBlue;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+  a {
+    color: white;
+    font-weight: $semibold;
+    opacity: 1;
+    display: inline-block;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0 4px 12px;
+    transition: opacity .2s ease-in-out;
+    &:hover {
+      opacity: .8;
     }
   }
 }
@@ -173,11 +430,139 @@ body {
     }
     margin-bottom: 24px;
   }
-  .form-actions {
-    .button{
-      &.cancel {
-        background: #f96166;
-      }
+  .button{
+    &.cancel {
+      background: #f96166;
     }
   }
+  .message {
+    font-size: 1.2em;
+    background: rgba(4, 193, 85, 0.97);
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+    a {
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+  }
+}
+
+
+.tracks-wrap {
+  background: url('/img/lhd_shot.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  .heading {
+    color: white;
+    margin-bottom: 52px;
+    &:after {
+      background: white;
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba($darkYellow, .85);
+  }
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.4em;
+    margin-bottom: 24px;
+  }
+  @include min-bp(490px) {
+    padding: 124px 0;
+    p {
+      font-size: 22px;
+      line-height: 1.5em;
+    }
+  }
+  a {
+    color: white;
+    font-weight: $bold;
+    opacity: 1;
+    text-decoration: underline;
+    transition: opacity .2s ease-in-out;
+    &:hover {
+      opacity: .8;
+    }
+    &.button {
+        text-decoration: none;
+        font-size: 1.3em;
+        padding: 24px 50px;
+    }
+  }
+}
+.anchors-wrap {
+    a {
+      font-size: 20px;
+      line-height: 1.5em;
+    }
+    padding: 20px 0 20px;
+    @include min-bp(490px) {
+      padding: 40px 0 40px;
+      a {
+        font-size: 26px;
+        line-height: 1.6em;
+      }
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        a {
+            text-align: center;
+            font-weight: bold;
+            display: inline-block;
+            line-height: 1em;
+            border-radius: 4px;
+            padding: 20px 17px;
+            transition: all .2s ease-in-out;
+            box-shadow: none;
+            &[href='#green'] {
+                color: $darkGreen;
+            }
+            &[href='#yellow'] {
+                color: $darkYellow;
+            }
+            &[href='#red'] {
+                color: $mangoRed;
+            }
+            &:hover {
+                box-shadow: 3px 3px 10px 0px #D0D0D0;
+            }
+        }
+    }
+}
+
+.flavor-wrap {
+    p {
+      font-size: 18px;
+      line-height: 1.5em;
+    }
+    padding: 60px 0 60px;
+    @include min-bp(490px) {
+      padding: 80px 0 80px;
+      p {
+        font-size: 22px;
+        line-height: 1.6em;
+      }
+    }
+    &#yellow .heading:after {
+        background: $darkYellow;
+    }
+    &#red .heading:after {
+        background: $mangoRed;
+    }
 }
