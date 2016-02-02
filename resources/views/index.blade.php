@@ -1,9 +1,28 @@
 @extends('layouts.master')
 
+@section('title')
+    MangoHacks '16 at FIU
+@endsection
+
 @section('head_actions')
 @endsection
 
 @section('body-class', 'class="home"')
+
+@section('menu')
+    <a href="#" class="logo">
+        <img class="responsive-image" src="/img/logo.png" alt="MangoHacks">
+    </a>
+    <div class="menu">
+        <a href="#about">About</a>
+        <a href="#faq">FAQs</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
+    </div>
+    <a class="mobile-trigger active" href="#" id="small-menu"><i class="fa fa-bars"></i></a>
+    <a class="mobile-close" href="#"><i class="fa fa-times"></i></a>
+@endsection
+
 
 @section('content')
 <div id="app">
@@ -64,11 +83,11 @@
             </p>
 
             <p>
-                We’re introducing flavored tracks as ways to enhance your hackathon experience.
+                We’re introducing <a href="/tracks">flavored tracks</a> as ways to enhance your hackathon experience.
                 First timer or newbie? We’ve got you covered - you’ll learn something with our
-                <a href="#">Green Track</a>. More into the entrepreneurial side? That’s cool
-                too, explore the possibilities of your venture with the <a href="#">Yellow Track</a>. Feel
-                like improving the world? Join everyone on the <a href="#">Red Track</a> and discover great
+                <a href="/tracks#green">Green Track</a>. More into the entrepreneurial side? That’s cool
+                too, explore the possibilities of your venture with the <a href="/tracks#yellow">Yellow Track</a>. Feel
+                like improving the world? Join everyone on the <a href="/tracks#red">Red Track</a> and discover great
                 was to make a change.
             </p>
         </div>
@@ -171,7 +190,7 @@
                     <p>
                         Don’t be afraid if you don’t think you have enough experience, a team or an idea.
                         A hackathon is meant for learnin - in fact we’re even having a track for beginners
-                        to learn (see <a href="#">Green Track</a>). We’ll have great mentors and tools to help you with
+                        to learn (see <a href="/tracks#green">Green Track</a>). We’ll have great mentors and tools to help you with
                         development, ideas, and everything in between as well as workshops where you can
                         pick up all kinds of skills.
                     </p>
@@ -191,7 +210,7 @@
                 <div class="faq">
                     <h3>Registration Process?</h3>
                     <p>
-                        After you register we’ll send out confirmation emails for you to reserve a spot.
+                        After you register we’ll send out confirmation emails in a rolling basis for you to reserve a spot.
                     </p>
                 </div>
 
@@ -277,7 +296,5 @@
         </div>
     </div>
 
-
-    <pre-register-modal token="{{ csrf_token() }}"></pre-register-modal>
 </div>
 @endsection

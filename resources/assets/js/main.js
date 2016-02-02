@@ -44,7 +44,7 @@ $(document).ready(function(){
     }
   });
 
-  $('.nav .menu a[href^="#"]').on('click',function (e) {
+  $('.nav .menu a[href^="#"], .anchors-wrap a').on('click',function (e) {
     if(this.hash){
       e.preventDefault();
 

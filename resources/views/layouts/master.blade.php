@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>MangoHacks '16 at FIU</title>
+        <title>@yield('title')</title>
         <link rel="icon" type="image/png" href="/img/logo_alone.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:image" content="/img/fb_splash2.jpg">
@@ -18,17 +18,7 @@
 <body>
     <div class="nav">
         <div class="container">
-            <a href="#" class="logo">
-                <img class="responsive-image" src="/img/logo.png" alt="MangoHacks">
-            </a>
-            <div class="menu">
-                <a href="#about">About</a>
-                <a href="#faq">FAQs</a>
-                <a href="#sponsors">Sponsors</a>
-                <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
-            </div>
-            <a class="mobile-trigger active" href="#" id="small-menu"><i class="fa fa-bars"></i></a>
-            <a class="mobile-close" href="#"><i class="fa fa-times"></i></a>
+            @yield('menu')
         </div>
     </div>
 

@@ -1,4 +1,6 @@
 <?php
 
 Route::get('/', 'HomeController@index');
-Route::post('/pre-register', 'HomeController@postPreRegister');
+Route::get('/tracks', function(){
+    return view('trails');
+});
