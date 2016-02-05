@@ -201,7 +201,13 @@
                     <p>
                         Driving, Flying, Swimming… however you can! We’d love to have anyone who really
                         wants to come, and if you need help figuring out a way that works, let us know at <a href="mailto:team@mangohacks.com">team@mangohacks.com</a>.
-                        We are sending a bus to schools in North Florida and will make stops at the schools with
+                    </p>
+                    <p>
+                        Unfortunately, we will not be able provide individual travel reinbursments this year.
+                    </p>
+                    <p>
+                        <strong>However,</strong>
+                        we are sending a bus to schools in North Florida and will make stops at the schools with
                         the most hackers, so get your friends to apply too. We also encourage car
                         pooling because who doesn’t love a road trip?
                     </p>
