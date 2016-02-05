@@ -203,7 +203,7 @@
                         wants to come, and if you need help figuring out a way that works, let us know at <a href="mailto:team@mangohacks.com">team@mangohacks.com</a>.
                     </p>
                     <p>
-                        Unfortunately, we will not be able provide individual travel reinbursments this year.
+                        Unfortunately, we will not be able provide individual travel reimbursements this year.
                     </p>
                     <p>
                         <strong>However,</strong>
