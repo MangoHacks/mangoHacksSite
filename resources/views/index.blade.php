@@ -261,12 +261,45 @@
         </div>
     </div>
 
+    <div id="schedule" class="schedule-wrap">
+
+    </div>
+
     <div id="sponsors" class="sponsors-wrap">
         <div class="container">
             <h2 class="heading mb-lg">Sponsors</h2>
 
             <h2 class="interest">Interested in Sponsoring Us? </h2>
             <p class="sell">Email <a href="mailto:team@mangohacks.com">team@mangohacks.com</a> for more information!</p>
+
+            <div class="grid">
+                <div class="row">
+                    <div class="col-12">
+                        <a class="logo-wrap" target="_blank" href="http://sga.fiu.edu">
+                            <img src="/img/logos/sga.jpg" alt="FIU SGA" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a class="logo-wrap" target="_blank" href="http://statefarm.com">
+                            <img class="logo" src="/img/logos/state_farm.png" alt="State Farm">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://soylent.com">
+                            <img class="logo" src="/img/logos/soylent.png" alt="Soylent">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://cis.fiu.edu">
+                            <img class="logo" src="/img/logos/scis.jpg" alt="FIU SCIS">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -278,16 +311,13 @@
                     <div class="col-6">
                         <img class="logo" src="/img/logos/mlh-logo.png" alt="MLH">
                     </div>
-                    <div class="col-6">
-                        <img class="logo" src="/img/logos/sga.jpg" alt="FIU SGA">
-                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <img class="logo acm" src="/img/logos/scis.jpg" alt="SCIS">
+                    <div class="col-4">
+                        <img class="logo" src="/img/logos/acm.png" alt="ACM">
                     </div>
-                    <div class="col-6">
-                        <img class="logo acm" src="/img/logos/acm.png" alt="ACM">
+                    <div class="col-4">
+                        <img class="logo" src="/img/logos/upe.png" alt="Upsilon Pi Epsilon">
                     </div>
                 </div>
             </div>

@@ -222,7 +222,7 @@ a {
   }
 }
 
-.sponsors-wrap {
+.shedule-wrap {
   background: $hackerBlue;
   padding: 80px 0;
   @include min-bp(490px) {
@@ -240,6 +240,24 @@ a {
   }
   .sell {
     color: white;
+    font-size: 24px;
+    line-height: 1.5em;
+  }
+}
+
+.sponsors-wrap {
+  padding: 80px 0 0;
+  @include min-bp(490px) {
+    padding: 124px 0 0;
+  }
+  .heading {
+    &:after {
+    }
+  }
+  .interest {
+    font-size: 32px;
+  }
+  .sell {
     font-size: 24px;
     line-height: 1.5em;
   }
@@ -295,9 +313,28 @@ a {
   }
 }
 
-.partners-wrap {
+.partners-wrap, .sponsors-wrap {
+    a.logo-wrap {
+        display: inline-block;
+        padding: 40px 10px;
+    }
+  .col-12 {
+      text-align: center;
+      .logo {
+        max-width: 640px;
+      }
+  }
   .col-6 {
     text-align: center;
+    .logo {
+      max-width: 460px;
+    }
+  }
+  .col-4 {
+    text-align: center;
+    .logo {
+      max-width: 360px;
+    }
   }
   .logo {
     max-width: 320px;
@@ -308,6 +345,13 @@ a {
       padding: 40px;
     }
   }
+}
+
+.partners-wrap {
+    .logo {
+        display: inline-block;
+        padding: 40px 10px;
+    }
 }
 
 .register-wrap {
