@@ -130,7 +130,7 @@
                     <p>
                         People will arrive between 6pm and 8pm on Friday, March 4th. Hacking will
                         start at 10pm on Friday and go until 8am on Sunday, March 6th. Closing
-                        ceremony will end by 3pm on Sunday.
+                        ceremony will end by 1pm on Sunday.
                     </p>
                 </div>
 
@@ -218,6 +218,8 @@
                     <p>
                         After you register we’ll send out confirmation emails in a rolling basis for you to reserve a spot.
                     </p>
+		    <p>
+			Registration will be open until <strong>February 26th</strong>.
                 </div>
 
                 <div class="faq">
