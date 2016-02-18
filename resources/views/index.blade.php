@@ -88,7 +88,7 @@
                 <a href="/tracks#green">Green Track</a>. More into the entrepreneurial side? That’s cool
                 too, explore the possibilities of your venture with the <a href="/tracks#yellow">Yellow Track</a>. Feel
                 like improving the world? Join everyone on the <a href="/tracks#red">Red Track</a> and discover great
-                was to make a change.
+                ways to make a change.
             </p>
         </div>
     </div>
@@ -314,7 +314,7 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <img class="logo" src="/img/logos/acm.png" alt="ACM">
+                        <img class="logo" src="/img/logos/acm-logo.png" alt="ACM">
                     </div>
                     <div class="col-4">
                         <img class="logo" src="/img/logos/upe.png" alt="Upsilon Pi Epsilon">
