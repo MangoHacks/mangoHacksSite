@@ -286,6 +286,11 @@
                             <img class="logo" src="/img/logos/state_farm.png" alt="State Farm">
                         </a>
                     </div>
+                    <div class="col-6">
+                        <a class="logo-wrap" target="_blank" href="http://ibm.com">
+                            <img style="padding: 10px 64px;" class="logo" src="/img/logos/ibm.png" alt="IBM">
+                        </a>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-4">
@@ -296,6 +301,11 @@
                     <div class="col-4">
                         <a class="logo-wrap" target="_blank" href="http://cis.fiu.edu">
                             <img class="logo" src="/img/logos/scis.jpg" alt="FIU SCIS">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://google.com">
+                            <img class="logo" src="/img/logos/google.png" alt="Google">
                         </a>
                     </div>
                 </div>
@@ -309,7 +319,7 @@
             <div class="grid">
                 <div class="row">
                     <div class="col-6">
-                        <img class="logo" src="/img/logos/mlh-logo.png" alt="MLH">
+                        <img class="logo" style="max-width: 360px;" src="/img/logos/mlh-logo.png" alt="MLH">
                     </div>
                 </div>
                 <div class="row">
