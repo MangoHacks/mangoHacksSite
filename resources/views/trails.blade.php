@@ -32,7 +32,6 @@
     <div class="tracks-wrap">
         <div class="container">
             <h2 class="heading">Flavored Tacks</h2>
-
             <p>
                 We’re introducing optional flavored tracks as ways to enhance your hackathon experience.
                 Tracks are meant to give you some direction while you work on your hack

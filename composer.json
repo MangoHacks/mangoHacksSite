@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "skovmand/mailchimp-laravel": "1.*"
+        "skovmand/mailchimp-laravel": "1.*",
+        "guzzlehttp/guzzle": "^6.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -23,7 +24,10 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files": [
+            "app/Http/helpers.php"
+        ]
     },
     "autoload-dev": {
         "classmap": [
