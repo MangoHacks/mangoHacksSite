@@ -1,6 +1,6 @@
 <div class="email-bg" style="background: #20396D;padding: 30px 0px 30px 0px;color: white;">
     <div class="pre-head" style="max-width: 600px;margin: 0 auto;padding: 10px 20px 10px 20px;background: #20396D;font-size: 10px;color: white;">
-        <a href="http://mangohacks.bro/confirm/{{ $attendee['hashed_id'] }}" style="color: #00E35C;">Confirm your spot at MangoHacks!</a>
+        <a href="http://mangohacks.com/confirm/{{ $attendee['hashed_id'] }}" style="color: #00E35C;">Confirm your spot at MangoHacks!</a>
     </div>
     <div class="header" style="max-width: 480px;margin: 0 auto;">
         <img src="http://mangohacks.com/img/logo.png" alt="MRE" style="max-width: 100%;">
@@ -18,7 +18,7 @@
         <p>
             For next steps, we'll need to confirm your attendace. So just follow the link bellow and you'll be set.
         </p>
-        <a class="cto" href="http://mangohacks.bro/confirm?h={{ $attendee['hashed_id'] }}" style="color: white;display: block;margin: 24px auto;width: 240px;background: #00E35C;border-radius: 5px;text-align: center;text-decoration: none;font-weight: bold;padding: 16px 24px;font-size: 20px;">Confirm Attendance</a>
+        <a class="cto" href="http://mangohacks.com/confirm?h={{ $attendee['hashed_id'] }}" style="color: white;display: block;margin: 24px auto;width: 240px;background: #00E35C;border-radius: 5px;text-align: center;text-decoration: none;font-weight: bold;padding: 16px 24px;font-size: 20px;">Confirm Attendance</a>
         <p>
             Also, join our <a href="https://www.facebook.com/groups/596999680448749/" style="color: #00E35C;">Attendees Facebook Group</a> to start meeting other hackers, organize carpools, share gifs, and get the HYPE going. We'll also be posting info on the bus there.
         </p>
