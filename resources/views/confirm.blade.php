@@ -58,6 +58,10 @@
                     <a href="/tracks">tracks page</a>.
                 </p>
 
+                <h2>Check our schedule</h2>
+
+                @include('_schedule')
+
                 <h3>See you soon!</h3>
             </div>
         </div>

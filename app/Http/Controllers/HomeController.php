@@ -29,10 +29,10 @@ class HomeController extends Controller
 
         $attendee = Attendee::where('id', $id)->first();
 
-        if($attendee['rsvp'] != 1) {
-            $attendee['rsvp'] = 1;
-            $attendee->save();
-        }
+//        if($attendee['rsvp'] != 1) {
+//            $attendee['rsvp'] = 1;
+//            $attendee->save();
+//        }
 
         return view('confirm', [
            'attendee' => $attendee

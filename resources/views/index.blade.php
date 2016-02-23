@@ -16,6 +16,7 @@
     <div class="menu">
         <a href="#about">About</a>
         <a href="#faq">FAQs</a>
+        <a href="#schedule">Schedule</a>
         <a href="#sponsors">Sponsors</a>
         <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
     </div>
@@ -218,8 +219,9 @@
                     <p>
                         After you register we’ll send out confirmation emails in a rolling basis for you to reserve a spot.
                     </p>
-		    <p>
-			Registration will be open until <strong>February 26th</strong>.
+                    <p>
+                    Registration will be open until <strong>February 26th</strong>.
+                    </p>
                 </div>
 
                 <div class="faq">
@@ -255,14 +257,11 @@
                 </div>
 
             </div>
-
-
-
         </div>
     </div>
 
     <div id="schedule" class="schedule-wrap">
-
+        @include('_schedule')
     </div>
 
     <div id="sponsors" class="sponsors-wrap">

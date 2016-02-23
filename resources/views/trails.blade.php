@@ -18,6 +18,7 @@
     <div class="menu">
         <a href="/#about">About</a>
         <a href="/#faq">FAQs</a>
+        <a href="/#schedule">Schedule</a>
         <a href="/#sponsors">Sponsors</a>
         <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
     </div>
@@ -38,7 +39,7 @@
                 and cater to different interests and skill levels.
             </p>
 
-            <a href="https://mangohacks.typeform.com/to/YyBEYF" class="button">Sign Up!</a>
+            {{--<a href="https://mangohacks.typeform.com/to/YyBEYF" class="button">Sign Up!</a>--}}
 
         </div>
     </div>
@@ -55,7 +56,7 @@
         <div class="container">
             <h2 class="heading">Green Track</h2>
             <p>
-                The green track is a guided intro for beginner hackers. If you are not entirely sure
+                The green track is a guided intro for beginners and hackers that want to learn something new. If you are not entirely sure
                 of what you're doing, this track is for you. There will be workshops to guide you through
                 the process of starting a project, using APIs and deploying your ideas as well as
                 oppurtinities for you to meet cool new friends.
@@ -63,7 +64,19 @@
 
             <br>
             <div class="schedule">
-                <h3>Schedule Coming soon...</h3>
+                <h3>Events <small>updating</small></h3>
+                <div class="day">
+                    <ul class="times">
+                        <li>Intro to HTML and CSS</li>
+                        <li>Git/Github by Jacob Jenkins</li>
+                        <li>MeteorJS by Gregory Johnson</li>
+                        <li>Swift by Ngoma Mbaku Davy</li>
+                        <li>Node.js by Jacob Jenkins</li>
+                        <li>Web apps in Sinatra by Ben Botwin</li>
+                        <li>React.js by Kennet Postigo</li>
+                        <li>Deploying your app</li>
+                    </ul>
+                </div>
                 <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
             </div>
         </div>
@@ -80,7 +93,12 @@
             </p>
 
             <div class="schedule">
-                <h3>Schedule Coming soon...</h3>
+                <h3>Events <small>updating</small></h3>
+                <div class="day">
+                    <ul class="times">
+                        <li>Team Building for Social Change</li>
+                    </ul>
+                </div>
                 <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
             </div>
         </div>
@@ -98,7 +116,12 @@
             </p>
 
             <div class="schedule">
-                <h3>Schedule Coming soon...</h3>
+                <h3>Events <small>updating</small></h3>
+                <div class="day">
+                    <ul class="times">
+                        <li>Pitch Workshop / Pitch Off</li>
+                    </ul>
+                </div>
                 <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
             </div>
         </div>

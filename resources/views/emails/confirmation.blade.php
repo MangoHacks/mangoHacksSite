@@ -16,6 +16,10 @@
             We will be sending a bus to north Florida, stopping at FSU, UF, and UCF. We'll release details on social media and through email.
         </p>
         <p>
+            Unfortunately we can't provide individual travel reinbursements this year. But if you have
+            any questions, let us know.
+        </p>
+        <p>
             For next steps, we'll need to confirm your attendace. So just follow the link bellow and you'll be set.
         </p>
         <a class="cto" href="http://mangohacks.com/confirm?h={{ $attendee['hashed_id'] }}" style="color: white;display: block;margin: 24px auto;width: 240px;background: #00E35C;border-radius: 5px;text-align: center;text-decoration: none;font-weight: bold;padding: 16px 24px;font-size: 20px;">Confirm Attendance</a>
