@@ -59,7 +59,7 @@
                 The green track is a guided intro for beginners and hackers that want to learn something new. If you are not entirely sure
                 of what you're doing, this track is for you. There will be workshops to guide you through
                 the process of starting a project, using APIs and deploying your ideas as well as
-                oppurtinities for you to meet cool new friends.
+                opportunities for you to meet cool new friends.
             </p>
 
             <br>
