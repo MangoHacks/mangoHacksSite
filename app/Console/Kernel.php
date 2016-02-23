@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
         Commands\Inspire::class,
         Commands\FetchApplicants::class,
         Commands\SendConfirmations::class,
+        Commands\Tooling::class,
     ];
 
     /**
