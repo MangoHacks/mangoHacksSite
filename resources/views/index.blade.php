@@ -293,18 +293,35 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <a class="logo-wrap" target="_blank" href="http://soylent.com">
-                            <img class="logo" src="/img/logos/soylent.png" alt="Soylent">
+                        <a class="logo-wrap" target="_blank" href="http://www.miavina.us">
+                            <img class="logo" src="/img/logos/miavina.png" alt="MiaVina">
                         </a>
                     </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://miamibeachapi.com">
+                            <img class="logo" src="/img/logos/mbvca.png" alt="Miami Beach Visitor & Convention Authority">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://google.com">
+                            <img class="logo" src="/img/logos/google.png" alt="Google">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-4">
                         <a class="logo-wrap" target="_blank" href="http://cis.fiu.edu">
                             <img class="logo" src="/img/logos/scis.jpg" alt="FIU SCIS">
                         </a>
                     </div>
                     <div class="col-4">
-                        <a class="logo-wrap" target="_blank" href="http://google.com">
-                            <img class="logo" src="/img/logos/google.png" alt="Google">
+                        <a class="logo-wrap" target="_blank" href="http://soylent.com">
+                            <img class="logo" src="/img/logos/soylent.png" alt="Soylent">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://engagement.fiu.edu/">
+                            <img class="logo" src="/img/logos/engagement.jpg" alt="FIU Office Of Enagement">
                         </a>
                     </div>
                 </div>

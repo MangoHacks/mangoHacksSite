@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Attendee;
 use GuzzleHttp\Client;
 use Illuminate\Console\Command;
 use Mailgun\Mailgun;
@@ -39,12 +40,20 @@ class Tooling extends Command
      */
     public function handle()
     {
+        dd($this->getConfirmed());
+    }
+
+    private function getConfirmed() {
+        $attendees = Attendee::where('rsvp', 1)->get();
+        return $attendees->toArray();
+    }
+
+    private function getBounces() {
         # Instantiate the client.
         $mgClient = new Mailgun(env('MAILGUN_SECRET'));
         $domain = env('MAILGUN_DOMAIN');
 
         # Issue the call to the client.
-        $result = $mgClient->get("$domain/bounces");
-        dd($result);
+        return $mgClient->get("$domain/bounces");
     }
 }
