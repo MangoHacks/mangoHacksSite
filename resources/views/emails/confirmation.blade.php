@@ -7,7 +7,7 @@
     </div>
     <div class="email-container" style="max-width: 600px;margin: 0 auto;padding: 0px 20px 20px 20px;background: #20396D;">
         <p class="greeting" style="color: white;font-size: 36px;font-weight: bold;">You're coming to MangoHacks {{ $attendee['first_name'] }}!</p>
-        <p>This is the first wave of decisions, and you've made the cut.</p>
+        <p>This is the second wave of decisions, and you've made the cut.</p>
 
         <p>
             We're super excited to have you join us in <strong>Miami, FL</strong> this upcoming <strong>March 4th - 6th</strong> for a sweet weekend.
@@ -16,11 +16,11 @@
             We will be sending a bus to north Florida, stopping at FSU, UF, and UCF. We'll release details on social media and through email.
         </p>
         <p>
-            Unfortunately we can't provide individual travel reinbursements this year. But if you have
+            Unfortunately we can't provide individual travel reimbursements this year. But if you have
             any questions, let us know.
         </p>
         <p>
-            For next steps, we'll need to confirm your attendace. So just follow the link bellow and you'll be set.
+            For next steps, we'll need to confirm your attendance. So just follow the link bellow and you'll be set.
         </p>
         <a class="cto" href="http://mangohacks.com/confirm?h={{ $attendee['hashed_id'] }}" style="color: white;display: block;margin: 24px auto;width: 240px;background: #00E35C;border-radius: 5px;text-align: center;text-decoration: none;font-weight: bold;padding: 16px 24px;font-size: 20px;">Confirm Attendance</a>
         <p>

@@ -40,7 +40,16 @@ class Tooling extends Command
      */
     public function handle()
     {
-        dd($this->getConfirmed());
+        //105
+        $id = 105;
+        $this->info(Attendee::where('id',$id)->first()['first_name']);
+        $this->info(Attendee::where('id',$id)->first()['email']);
+        $this->info($this->getHashFor($id));
+    }
+
+    private function getHashFor($id) {
+        $hashed_id = urlencode(simple_encrypt($id));
+        return $hashed_id;
     }
 
     private function getConfirmed() {
