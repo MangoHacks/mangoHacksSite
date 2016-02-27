@@ -18,7 +18,7 @@
         <a href="#faq">FAQs</a>
         <a href="#schedule">Schedule</a>
         <a href="#sponsors">Sponsors</a>
-        <a href="https://mangohacks.typeform.com/to/MsmTv9">Register</a>
+        <!-- <a href="#">Register</a> -->
     </div>
     <a class="mobile-trigger active" href="#" id="small-menu"><i class="fa fa-bars"></i></a>
     <a class="mobile-close" href="#"><i class="fa fa-times"></i></a>
@@ -38,7 +38,7 @@
             <img id="logo" src="/img/logo.png">
             <div class="tagline">36 Hours | Florida International University | March 4 - 6, 2016</div>
             <div class="actions">
-                <a href="https://mangohacks.typeform.com/to/MsmTv9" class="button register">Register!</a>
+                <a href="#" class="button register">Registrations Closed</a>
                 <a href="#sponsors" class="button sponsor main-button">Sponsor Us</a>
             </div>
             <div class="social_media">
@@ -355,7 +355,8 @@
           <h2 class="heading mb-lg">Register</h2>
 
           <p>
-            It's time. <a href="https://mangohacks.typeform.com/to/MsmTv9">Register today</a> and be sweet with us.
+           <!--  It's time. <a href="#">Register today</a> and be sweet with us.-->
+            Oh no! Registration has closed! 
           </p>
         </div>
     </div>
