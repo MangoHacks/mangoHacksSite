@@ -325,6 +325,18 @@
                         </a>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://www.ultimatesoftware.com/">
+                            <img class="logo" src="/img/logos/ultimate.jpg" alt="Ultimate Software">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="https://ultrapress.com/">
+                            <img class="logo" src="/img/logos/ultrapress.png" alt="Ultra Press">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -337,13 +349,21 @@
                     <div class="col-6">
                         <img class="logo" style="max-width: 360px;" src="/img/logos/mlh-logo.png" alt="MLH">
                     </div>
+                    <div class="col-6">
+                        <img style="padding: 0px 100px;" class="logo" src="/img/logos/acm-logo.png" alt="ACM">
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <img class="logo" src="/img/logos/acm-logo.png" alt="ACM">
+                        <img class="logo" src="/img/logos/upe.png" alt="Upsilon Pi Epsilon">
                     </div>
                     <div class="col-4">
-                        <img class="logo" src="/img/logos/upe.png" alt="Upsilon Pi Epsilon">
+                        <img class="logo" src="/img/logos/wics.jpg" alt="WICS">
+                    </div>
+                    <div class="col-4">
+                        <a class="logo-wrap" target="_blank" href="http://floridahackers.com">
+                            <img class="logo" src="/img/logos/flhackers.jpg" alt="Florida Hackers">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -356,7 +376,7 @@
 
           <p>
            <!--  It's time. <a href="#">Register today</a> and be sweet with us.-->
-            Oh no! Registration has closed! 
+            Oh no! Registration has closed!
           </p>
         </div>
     </div>
