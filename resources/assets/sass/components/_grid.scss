@@ -1,8 +1,11 @@
 .grid {
     .row {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        display: block;
+        @include min-bp(640px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
         .col-12 {
             @include min-bp(640px) {
                 flex: 1 1 100%;

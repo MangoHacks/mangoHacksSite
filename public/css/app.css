@@ -478,15 +478,18 @@ th {
 /* Mobile First Breakpoints */
 /* Desktop First Breakpoints */
 .grid .row {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  display: block; }
+  @media (min-width: 640px) {
+    .grid .row {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
   @media (min-width: 640px) {
     .grid .row .col-12 {
       -webkit-flex: 1 1 100%;
@@ -1235,5 +1238,95 @@ a {
         -webkit-flex: 0 0 30%;
         -ms-flex: 0 0 30%;
         flex: 0 0 30%; }
+
+[v-cloak] {
+  display: none; }
+
+.live .updates > h2, .live .schedule > h2 {
+  background: #00E163;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid white;
+  margin: 0;
+  padding: 16px; }
+
+.live .tracks-wrap:after {
+  background: rgba(244, 42, 31, 0.75); }
+
+@media (min-width: 490px) {
+  .live .tracks-wrap {
+    padding: 100px 0;
+    background-image: url("/img/atrium.jpg"); } }
+
+.live .countdown {
+  font-size: 3.5em;
+  margin: 0; }
+  @media (min-width: 490px) {
+    .live .countdown {
+      font-size: 6em; } }
+
+.live p.countdown-sub {
+  font-size: 2.5em;
+  margin: 0; }
+
+.live .updates-wrap, .live .program-wrap {
+  min-height: 500px;
+  max-height: 700px;
+  overflow-y: auto;
+  border: 1px solid #ECECEC;
+  box-shadow: 0px -12px 11px -13px #9C9C9C inset; }
+
+.live .updates-wrap {
+  padding: 10px; }
+
+.live #live .grid .row {
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.live .update-item {
+  padding: 16px;
+  box-shadow: 0px 0px 10px -3px #BDBDBD;
+  margin-bottom: 12px;
+  border-radius: 3px; }
+  .live .update-item .title {
+    margin: 10px 0 5px; }
+  .live .update-item .date {
+    margin: 10px 0;
+    font-weight: 400; }
+  .live .update-item p {
+    margin: 0;
+    font-size: 16px; }
+
+.live .schedule-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 16px; }
+  .live .schedule-item .time {
+    -webkit-flex: 1 1 33.33%;
+    -ms-flex: 1 1 33.33%;
+    flex: 1 1 33.33%;
+    text-transform: uppercase;
+    color: #00E163;
+    font-weight: 700; }
+  .live .schedule-item .dets {
+    -webkit-flex: 1 1 66.66%;
+    -ms-flex: 1 1 66.66%;
+    flex: 1 1 66.66%; }
+    .live .schedule-item .dets .location {
+      margin: 0;
+      font-weight: 400;
+      margin-bottom: 4px; }
+    .live .schedule-item .dets .title {
+      margin: 0; }
 
 /*# sourceMappingURL=app.css.map */

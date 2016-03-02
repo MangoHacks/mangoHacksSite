@@ -31,7 +31,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
         @yield('head_actions')
     </head>
-<body>
+<body @yield('body-class') >
     <div class="nav">
         <div class="container">
             @yield('menu')
@@ -58,7 +58,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/jquery.sticky.js"></script>
     <script src="/js/main.js"></script>
-
+    @yield('footer_actions')
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

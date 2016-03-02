@@ -1,6 +1,7 @@
 var Vue = require('vue');
 Vue.use(require('vue-resource'));
-import PreRegisterModal from './components/PreRegisterModal.vue'
+import PreRegisterModal from './components/PreRegisterModal.vue';
+var moment = require('moment');
 
 Vue.http.headers.common['X-CSRF-TOKEN'] = document.querySelector('#token').getAttribute('content');
 
@@ -17,6 +18,78 @@ new Vue({
     },
     ready() {
         console.log('ready');
+    }
+});
+
+new Vue({
+    el: '#live',
+    data: {
+        deadline: null,
+        message: '',
+        subtitle: '',
+        updates: null,
+        schedule_entries: null
+    },
+    methods: {
+        formatParseDate(parseDate) {
+            return moment(parseDate).format("ddd h:mm A");
+        }
+    },
+    ready() {
+        var self = this;
+        var timer = null;
+        var Deadline = Parse.Object.extend("CountdownItem");
+
+        var query = new Parse.Query(Deadline);
+        query.get("lFY2XFA6e8", {
+            success: (countdownItem) => {
+                var endTime = countdownItem.get('time');
+                var then = moment(endTime);
+                self.deadline = then;
+                timer = setInterval(function() {
+                    var now  = moment(Date.now());
+                    var ms = moment(then,"DD/MM/YYYY HH:mm:ss").diff(moment(now,"DD/MM/YYYY HH:mm:ss"));
+                    var d = moment.duration(ms);
+                    var s = Math.floor(d.asHours()) + moment.utc(ms).format(":mm:ss");
+                    self.message = s;
+
+                    if(d == 0) {
+                        self.subtitle = "It's time!";
+                        return clearInterval(timer);
+                    }
+                    else {
+                        self.subtitle = countdownItem.get('label');
+                    }
+                }, 1000);
+            },
+            error: (object, error) => {
+                // The object was not retrieved successfully.
+                // error is a Parse.Error with an error code and message.
+            }
+        });
+
+
+        var Updates = Parse.Object.extend('Update');
+        var updatesQuery = new Parse.Query(Updates);
+
+        updatesQuery.find({
+            success: (updates) => {
+                self.updates = updates;
+            },
+            error: (object, error) => {
+            }
+        });
+
+        var Schedule = Parse.Object.extend('ScheduleItem');
+        var schedulesQuery = new Parse.Query(Schedule);
+
+        schedulesQuery.find({
+            success: (dates) => {
+                self.schedule_entries = dates;
+            },
+            error: (object, error) => {
+            }
+        });
     }
 });
 
