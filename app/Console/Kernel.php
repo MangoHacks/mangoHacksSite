@@ -17,6 +17,7 @@ class Kernel extends ConsoleKernel
         Commands\FetchApplicants::class,
         Commands\SendConfirmations::class,
         Commands\SendBusEmail::class,
+        Commands\SendLogistics::class,
         Commands\Tooling::class,
     ];
 

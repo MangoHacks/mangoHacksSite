@@ -1226,9 +1226,6 @@ a {
       margin: 0;
       list-style: none; }
       .flavor-wrap .day .times li {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
         margin-bottom: 16px; }
       .flavor-wrap .day .times .time {
         color: #FFB600;

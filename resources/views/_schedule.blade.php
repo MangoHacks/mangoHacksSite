@@ -23,6 +23,7 @@
             <h3>Sunday</h3>
             <ul class="times">
                 <li><span class="time">1:00am</span> Soylent Pong</li>
+                <li><span class="time">6:30am</span> Breakfast</li>
                 <li><span class="time">8:00am</span> Hacking Ends/Submissions Due</li>
                 <li><span class="time">9:00am</span> Expo Begins</li>
                 <li><span class="time">12:00pm</span> Closing Ceremony</li>
@@ -34,9 +35,9 @@
         <h2>Workshop/Events</h2>
         <ul class="times">
             <li>Resume Workshop by Google</li>
-            <li>IBM Workshop</li>
+            <li>IBM Watson IOT Workshop</li>
+            <li>Relay For</li>
         </ul>
-
         <h2>Track Events</h2>
             <p>Check out and extended range of events that are part of our tracks. Anyone can attend these.
             <br>

@@ -67,14 +67,53 @@
                 <h3>Events <small>updating</small></h3>
                 <div class="day">
                     <ul class="times">
-                        <li>Intro to HTML and CSS</li>
-                        <li>Git/Github by Jacob Jenkins</li>
-                        <li>MeteorJS by Gregory Johnson</li>
-                        <li>Swift by Ngoma Mbaku Davy</li>
-                        <li>Node.js by Jacob Jenkins</li>
-                        <li>Web apps in Sinatra by Ben Botwin</li>
-                        <li>React.js by Kennet Postigo</li>
-                        <li>Deploying your app</li>
+                        <li>
+                            Git/Github by <strong>Jacob Jenkins</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: <a href="https://git-scm.com/">Install Git</a> (Windows users, install git bash with it)</small>
+                        </li>
+                        <li>
+                            Intro to HTML and CSS by <strong>Ashlay Narcisse</strong>
+                            <br>
+                            <small>
+                                <strong>Requirements</strong>: Text editor (<a href="https://atom.io/">Atom</a> or
+                                <a href="https://www.sublimetext.com/3">Sublime Text</a> recommended)
+                            </small>
+                        </li>
+                        <li>
+                            Node.js/Express by <strong>Jacob Jenkins</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: Basic Javascript Knowledge, <a href="https://nodejs.org/en/download/">Install Node.js</a></small>
+                        </li>
+                        <li>
+                            Web apps in Sinatra [Community Workshop by] <strong>Ben Botwin</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: Basic Ruby is recommended but not required. <a
+                                        href="https://www.ruby-lang.org/en/documentation/installation/">Install Ruby</a></small>
+                        </li>
+                        <li>
+                            Using the Hackathon Starter Kit by <strong>Ashlay Narcisse</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: <a href="https://git-scm.com/">Git</a>, <a href="https://nodejs.org/en/download/">Install Node.js</a></small>
+                        </li>
+                        <li>
+                            MeteorJS by <strong>Gregory Johnson</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: Basic JS Knowledge recommended. <a href="https://www.meteor.com/install">Install Meteor</a></small>
+                        </li>
+                        <li>
+                            Swift by <strong>Ngoma Mbaku Davy</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: OSX, Xcode (free on the mac appstore)</small>
+                        </li>
+                        <li>
+                            React.js by <strong>Kennet Postigo</strong>
+                            <br>
+                            <small><strong>Requirements</strong>: <a href="https://git-scm.com/">Git</a>, <a href="https://nodejs.org/en/download/">Node.js</a></small>
+                        </li>
+                        <li>
+                            Deploying your app
+                        </li>
                     </ul>
                 </div>
                 <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
