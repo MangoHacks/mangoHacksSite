@@ -55,7 +55,7 @@ class Tooling extends Command
     }
 
     private function getNotified() {
-    	return Attendee::where('confirmations_sent', 1)->get();
+    	return Attendee::whereIn('confirmations_sent', [1,2])->get();
     }
 
     private function getConfirmed() {
