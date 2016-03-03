@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Attendee;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Mail;
 
 class SendLogistics extends Command
 {
