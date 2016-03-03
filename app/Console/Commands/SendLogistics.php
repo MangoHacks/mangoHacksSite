@@ -51,7 +51,7 @@ class SendLogistics extends Command
                 'email' => $attendee['email']
             ];
 
-            Mail::send('emails.confirmation', ['attendee' => $attendee_data], function($m) use ($attendee_data) {
+            Mail::send('emails.two_days', ['attendee' => $attendee_data], function($m) use ($attendee_data) {
                 $m->from('team@mangohacks.com', 'MangoHacks Team');
 
                 $m->to($attendee_data['email'], $attendee_data['first_name'].' '.$attendee_data['last_name'])

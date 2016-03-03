@@ -24,7 +24,7 @@
         </p>
         <h3>Events</h3>
         <p>
-            We have a lot of events planned for you. Ranging from workshops that will take you from basics of coding, to frameworks and technologies to build your idea, to deploying your app. And also events that will help you make an impact in society or explore your dream venture. Check these out at the <a href="http://mangohacks.bro/tracks" style="color: #00E35C;">Tracks Page</a>. Everyone is welcome to attend any of these.
+            We have a lot of events planned for you. Ranging from workshops that will take you from basics of coding, to frameworks and technologies to build your idea, to deploying your app. And also events that will help you make an impact in society or explore your dream venture. Check these out at the <a href="http://mangohacks.com/tracks" style="color: #00E35C;">Tracks Page</a>. Everyone is welcome to attend any of these.
         </p>
         <h3>Join us on Slack and Facebook</h3>
         <p>
