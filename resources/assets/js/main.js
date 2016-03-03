@@ -71,7 +71,7 @@ new Vue({
 
         var Updates = Parse.Object.extend('Update');
         var updatesQuery = new Parse.Query(Updates);
-        updatesQuery.ascending('startTime');
+        updatesQuery.descending('createdAt');
         updatesQuery.find({
             success: (updates) => {
                 self.updates = updates;
@@ -82,7 +82,7 @@ new Vue({
 
         var Schedule = Parse.Object.extend('ScheduleItem');
         var schedulesQuery = new Parse.Query(Schedule);
-
+        schedulesQuery.ascending('startTime');
         schedulesQuery.find({
             success: (dates) => {
                 self.schedule_entries = dates;
