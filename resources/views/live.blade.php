@@ -81,7 +81,7 @@
                     </p>
 
                     <p>
-                        Also, we want to enhance your hackathon experience with options tracks. Tracks are
+                        Also, we want to enhance your hackathon experience with optional tracks. Tracks are
                         events and workshops that you can attend. You can subscribe to track updates in the
                         <a href="/tracks">tracks page</a>.
                     </p>
