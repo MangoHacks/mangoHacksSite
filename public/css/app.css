@@ -1239,6 +1239,13 @@ a {
 [v-cloak] {
   display: none; }
 
+.live .links {
+  padding: 30px 0;
+  text-align: center; }
+
+.live .flavor-wrap {
+  padding: 20px 0; }
+
 .live .updates > h2, .live .schedule > h2 {
   background: #00E163;
   color: white;

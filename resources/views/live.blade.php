@@ -5,12 +5,17 @@
 @endsection
 
 @section('head_actions')
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/edlendmgfkojcpmfmjcnijnbmmobmhnn">
     <script src="//www.parsecdn.com/js/parse-1.6.14.min.js"></script>
     <script>Parse.initialize("GLMDltnGHl8uoy8M9tzTolYjCefsvlGoVLrRSXJV", "Tb7HwGR9Q2XCZ7iA4hogxFNr9JW0oBdU3oeF0mlQ");</script>
 @endsection
 
 @section('footer_actions')
-
+    <script>
+        if (chrome.app.isInstalled) {
+            document.getElementById('install-button').style.display = 'none';
+        }
+    </script>
 @endsection
 
 
@@ -38,6 +43,14 @@
                 <p class="countdown-sub">
                     @{{ subtitle }}
                 </p>
+                <br>
+                <button class="button" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>
+            </div>
+        </div>
+        <div class="links">
+            <div class="container">
+                <a href="#reminders" class="button">Reminders</a>
+                <a href="#map" class="button">Venue Map</a>
             </div>
         </div>
         <div id="green" class="flavor-wrap">
@@ -72,7 +85,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" id="map">
+                    <br><br><br>
+                    <h2 class="heading mb-lg">Venue Map</h2>
+                    <a href="/img/map2.jpg"><img class="responsive-image" src="/img/map2.jpg" alt=""></a>
+                </div>
+                <div class="container" id="reminders">
                     <br><br><br>
                     <h2 class="heading mb-lg">Reminders</h2>
                     <p>
