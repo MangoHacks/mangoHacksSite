@@ -45,7 +45,7 @@
                     @{{ subtitle }}
                 </p>
                 <br>
-                {{--<button class="button" style="display: none;" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>--}}
+                <button class="button" style="display: none;" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>
             </div>
         </div>
         <div class="links">

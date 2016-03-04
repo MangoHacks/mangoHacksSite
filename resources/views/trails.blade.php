@@ -86,7 +86,7 @@
                             <small><strong>Requirements</strong>: Basic Javascript Knowledge, <a href="https://nodejs.org/en/download/">Install Node.js</a></small>
                         </li>
                         <li>
-                            Web apps in Sinatra [Community Workshop by] <strong>Ben Botwin</strong>
+                            Web apps in Sinatra by <strong>Ben Botwin</strong><small> (Community Workshop)</small>
                             <br>
                             <small><strong>Requirements</strong>: Basic Ruby is recommended but not required. <a
                                         href="https://www.ruby-lang.org/en/documentation/installation/">Install Ruby</a></small>
@@ -116,7 +116,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
+                {{--<a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>--}}
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@
                         <li>Team Building for Social Change</li>
                     </ul>
                 </div>
-                <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
+                {{--<a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>--}}
             </div>
         </div>
     </div>
@@ -159,9 +159,14 @@
                 <div class="day">
                     <ul class="times">
                         <li>Pitch Workshop / Pitch Off</li>
+                        <li>
+                            Life in the Tech World by <strong>CTO of Tesser Health</strong>
+                            <br>
+                            <small><strong>Saturday at 4PM</strong></small>
+                        </li>
                     </ul>
                 </div>
-                <a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>
+                {{--<a href="https://mangohacks.typeform.com/to/YyBEYF">Signup for updates.</a>--}}
             </div>
         </div>
     </div>
