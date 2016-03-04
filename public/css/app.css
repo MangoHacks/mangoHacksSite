@@ -958,6 +958,10 @@ a {
   border-radius: 3px;
   transition: background .2s;
   margin-bottom: 12px; }
+  .button.secondary {
+    background: #FFB600; }
+  .button.danger {
+    background: #f96166; }
   .button.sponsor {
     background: #FFB600; }
   .button:hover {
@@ -1243,6 +1247,10 @@ a {
   padding: 30px 0;
   text-align: center; }
 
+.live .button {
+  font-size: 1em;
+  padding: 12px 16px; }
+
 .live .flavor-wrap {
   padding: 20px 0; }
 
@@ -1260,7 +1268,7 @@ a {
 
 @media (min-width: 490px) {
   .live .tracks-wrap {
-    padding: 100px 0;
+    padding: 70px 0;
     background-image: url("/img/atrium.jpg"); } }
 
 .live .countdown {

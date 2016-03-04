@@ -28,6 +28,7 @@
     <div class="menu">
         <a href="/#about">About</a>
         <a href="/#faq">FAQs</a>
+        <a href="/tracks">Track Events</a>
         <a href="/#sponsors">Sponsors</a>
     </div>
     <a class="mobile-trigger active" href="#" id="small-menu"><i class="fa fa-bars"></i></a>
@@ -51,6 +52,9 @@
             <div class="container">
                 <a href="#reminders" class="button">Reminders</a>
                 <a href="#map" class="button">Venue Map</a>
+                <a href="http://slack.mangohacks.com" target="_blank" class="button">Request Slack Invite</a>
+                <a href="http://hardware.mlh.io" target="_blank" class="button secondary">MLH Hardware Request</a>
+                <a href="http://mangohacks16.devpost.com/" target="_blank" class="button secondary">Devpost</a>
             </div>
         </div>
         <div id="green" class="flavor-wrap">

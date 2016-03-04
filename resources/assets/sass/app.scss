@@ -338,6 +338,12 @@ a {
   margin-bottom: 12px;
   &.register {
   }
+  &.secondary {
+    background: $lightYellow;
+  }
+  &.danger {
+    background: $mangoLightRed;
+  }
   &.sponsor {
     background: $lightYellow;
   }
@@ -686,6 +692,10 @@ a {
     padding: 30px 0;
     text-align: center;
   }
+  .button {
+    font-size: 1em;
+    padding: 12px 16px;
+  }
   .flavor-wrap {
     padding: 20px 0;
   }
@@ -707,7 +717,7 @@ a {
   }
   @media (min-width: 490px){
     .tracks-wrap {
-      padding: 100px 0;
+      padding: 70px 0;
       background-image: url("/img/atrium.jpg");
     }
   }
