@@ -51,6 +51,7 @@
     <div class="tracks-wrap">
         <div class="container">
             <h1 class="heading">Checkins</h1>
+            <p style="font-weight: bold;">Total Checked in: {{ $checkins }}</p>
         </div>
     </div>
     <div class="container">
@@ -83,7 +84,13 @@
                         <td>{{ $attendee['email'] }}</td>
                         <td>{{ $attendee['school'] }}</td>
                         <td>{{ ($attendee['rsvp'] == 1) ? 'yes': 'no'}}</td>
-                        <td>{{ $attendee['checked_in'] }}</td>
+                        <td>
+                            @if($attendee['checked_in'] == 0)
+                                <a class="btn btn-success" href="/checkin/{{ $attendee['id'] }}">Check In</a>
+                            @else
+                                <a class="btn btn-default" href="/checkin/{{ $attendee['id'] }}">Uncheck in</a>
+                            @endif
+                        </td>
                     </tr>
                 @endforeach
             </tbody>
