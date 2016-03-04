@@ -35,7 +35,7 @@ class HomeController extends Controller
         }
 
         return view('confirm', [
-           'attendee' => $attendee
+            'attendee' => $attendee
         ]);
     }
 
