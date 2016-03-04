@@ -12,8 +12,8 @@
 
 @section('footer_actions')
     <script>
-        if (chrome.app.isInstalled) {
-            document.getElementById('install-button').style.display = 'none';
+        if (!chrome.app.isInstalled) {
+            document.getElementById('install-button').style.display = 'inline-block';
         }
     </script>
 @endsection
@@ -44,7 +44,7 @@
                     @{{ subtitle }}
                 </p>
                 <br>
-                <button class="button" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>
+                <button class="button" style="display: none;" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>
             </div>
         </div>
         <div class="links">
