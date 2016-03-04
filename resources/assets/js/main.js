@@ -71,7 +71,7 @@ new Vue({
 
         var Updates = Parse.Object.extend('Update');
         var updatesQuery = new Parse.Query(Updates);
-        updatesQuery.descending('createdAt');
+        updatesQuery.ascending('startTime');
         updatesQuery.find({
             success: (updates) => {
                 self.updates = updates;
