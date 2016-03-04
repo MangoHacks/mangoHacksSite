@@ -52,6 +52,7 @@
             <div class="container">
                 <a href="#reminders" class="button">Reminders</a>
                 <a href="#map" class="button">Venue Map</a>
+                <a href="/tracks" class="button">Track Events</a>
                 <a href="http://slack.mangohacks.com" target="_blank" class="button">Request Slack Invite</a>
                 <a href="http://hardware.mlh.io" target="_blank" class="button secondary">MLH Hardware Request</a>
                 <a href="http://mangohacks16.devpost.com/" target="_blank" class="button secondary">Devpost</a>

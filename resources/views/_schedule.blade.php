@@ -15,7 +15,10 @@
             <h3>Saturday</h3>
             <ul class="times">
                 <li><span class="time">8:00am</span> Breakfast</li>
+                <li><span class="time">10:00am</span>IBM Watson IoT Workshop</li>
+                <li><span class="time">11:00am</span>Path to Google Workshop</li>
                 <li><span class="time">12:30pm</span> Lunch</li>
+                <li><span class="time">3:00pm</span>IBM Watson IoT Workshop (Repeat)</li>
                 <li><span class="time">6:00pm</span> Dinner</li>
             </ul>
         </div>
@@ -34,9 +37,9 @@
     <div class="day workshops">
         <h2>Workshop/Events</h2>
         <ul class="times">
-            <li>Resume Workshop by Google</li>
+            <li>Path to Google Workshop</li>
             <li>IBM Watson IOT Workshop</li>
-            <li>Relay For</li>
+            <li>Relay For Life Events</li>
         </ul>
         <h2>Track Events</h2>
             <p>Check out and extended range of events that are part of our tracks. Anyone can attend these.
