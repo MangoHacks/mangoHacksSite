@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
 @section('title')
-    Confirm your spot | MangoHacks '16
+    Live Updates | MangoHacks '16
 @endsection
 
 @section('head_actions')
+    <meta http-equiv="refresh" content="60" />
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/edlendmgfkojcpmfmjcnijnbmmobmhnn">
     <script src="//www.parsecdn.com/js/parse-1.6.14.min.js"></script>
     <script>Parse.initialize("GLMDltnGHl8uoy8M9tzTolYjCefsvlGoVLrRSXJV", "Tb7HwGR9Q2XCZ7iA4hogxFNr9JW0oBdU3oeF0mlQ");</script>
@@ -45,7 +46,7 @@
                     @{{ subtitle }}
                 </p>
                 <br>
-                <button class="button" style="display: none;" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>
+                {{--<button class="button" style="display: none;" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>--}}
             </div>
         </div>
         <div class="links">

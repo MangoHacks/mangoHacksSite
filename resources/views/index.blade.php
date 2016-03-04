@@ -38,8 +38,9 @@
             <img id="logo" src="/img/logo.png">
             <div class="tagline">36 Hours | Florida International University | March 4 - 6, 2016</div>
             <div class="actions">
-                <a href="#" class="button register">Registrations Closed</a>
-                <a href="#sponsors" class="button sponsor main-button">Sponsor Us</a>
+                {{--<a href="#" class="button register">Registrations Closed</a>--}}
+                {{--<a href="#sponsors" class="button sponsor main-button">Sponsor Us</a>--}}
+                <a href="/live" class="button register">Day-Of Updates and Info</a>
             </div>
             <div class="social_media">
                 <a target="_blank" href="https://www.facebook.com/MangoHacks">
