@@ -57,6 +57,7 @@
                 <a href="http://slack.mangohacks.com" target="_blank" class="button">Request Slack Invite</a>
                 <a href="http://hardware.mlh.io" target="_blank" class="button secondary">MLH Hardware Request</a>
                 <a href="http://mangohacks16.devpost.com/" target="_blank" class="button secondary">Devpost</a>
+                <a href="http://miamibeachapi.com/" target="_blank" class="button secondary">Miami Beach API</a>
             </div>
         </div>
         <div id="green" class="flavor-wrap">
