@@ -591,7 +591,7 @@ a {
   position: relative;
   height: 100%;
   z-index: 1;
-  background-image: url("/img/pg6.jpg");
+  background-image: url("/img/mentoringbw.jpg");
   background-size: cover; }
 
 .wrapper > .overlay {
@@ -603,7 +603,7 @@ a {
   z-index: 2; }
 
 .wrapper .translucentBlue {
-  background: rgba(16, 53, 110, 0.5); }
+  background: rgba(0, 0, 0, 0.3); }
 
 .wrapper > .content {
   position: absolute;
@@ -634,10 +634,10 @@ a {
   max-width: 360px;
   width: 100%;
   z-index: 3;
-  margin-bottom: 42px; }
+  margin-bottom: 4px; }
   @media (min-width: 490px) {
     .wrapper > .content > #logo {
-      margin-bottom: 72px;
+      margin-bottom: 8px;
       max-width: 420px; } }
 
 .content .tagline {
@@ -966,6 +966,10 @@ a {
     background: #FFB600; }
   .button:hover {
     background: #00B44D; }
+    .button:hover.secondary {
+      background: #FF9800; }
+    .button:hover.danger {
+      background: #FC4035; }
     .button:hover.sponsor {
       background: #FF9800; }
   @media (min-width: 490px) {
@@ -1045,11 +1049,14 @@ a {
       opacity: .8; }
 
 .footer {
-  background: #10356E;
+  background: #0d0d0d;
   padding: 40px 0;
   text-align: center;
   color: white; }
   .footer a {
+    color: white;
+    text-decoration: underline; }
+  .footer .social_media a {
     color: white;
     font-weight: 500;
     opacity: 1;
@@ -1060,7 +1067,7 @@ a {
     line-height: 1em;
     margin: 0 4px 12px;
     transition: opacity .2s ease-in-out; }
-    .footer a:hover {
+    .footer .social_media a:hover {
       opacity: .8; }
 
 .super_impose {

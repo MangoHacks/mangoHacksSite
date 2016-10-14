@@ -51,7 +51,7 @@
                 <i class="fa fa-twitter"></i>
             </a>
         </div>
-        &copy; MangoHacks.com
+        &copy; MangoHacks.com | <a href="2016.mangohacks.com">View 2016 Site</a>
       </div>
     </div>
 
