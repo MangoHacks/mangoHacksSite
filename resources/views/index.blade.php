@@ -143,7 +143,7 @@
                         year is welcome to participate. If it has been a while since you were a
                         student you can still participate as a mentor for the attendees.
                         <br>
-                        <a href="https://mangohacks.typeform.com/to/Kf6671">Sign up to be a mentor</a>
+                        <a href="#">Sign up to be a mentor</a>
                     </p>
                 </div>
 
@@ -357,9 +357,6 @@
                 <div class="row">
                     <div class="col-4">
                         <img class="logo" src="/img/logos/upe.png" alt="Upsilon Pi Epsilon">
-                    </div>
-                    <div class="col-4">
-                        <img class="logo" src="/img/logos/wics.jpg" alt="WICS">
                     </div>
                     <div class="col-4">
                         <a class="logo-wrap" target="_blank" href="http://floridahackers.com">

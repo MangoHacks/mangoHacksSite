@@ -5,7 +5,6 @@
 @endsection
 
 @section('head_actions')
-    <meta http-equiv="refresh" content="60" />
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/edlendmgfkojcpmfmjcnijnbmmobmhnn">
     <script src="//www.parsecdn.com/js/parse-1.6.14.min.js"></script>
     <script>Parse.initialize("GLMDltnGHl8uoy8M9tzTolYjCefsvlGoVLrRSXJV", "Tb7HwGR9Q2XCZ7iA4hogxFNr9JW0oBdU3oeF0mlQ");</script>
@@ -41,12 +40,12 @@
     <div id="live" v-cloak>
         <div class="tracks-wrap">
             <div class="container">
-                <h1 class="countdown" class="heading">@{{ message }}</h1>
+                <h1 class="countdown" class="heading">0:00</h1>
                 <p class="countdown-sub">
                     @{{ subtitle }}
                 </p>
                 <br>
-                <button class="button" style="display: none;" onclick="chrome.webstore.install()" id="install-button">Get Notifications</button>
+		<a class="button" href="https://docs.google.com/spreadsheets/d/1zIE23x7MLVXNQI7FjE3L9j3tU76CFxRakc-6gRFkq_U/edit?usp=sharing">Table Assignment</a>
             </div>
         </div>
         <div class="links">
