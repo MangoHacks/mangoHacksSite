@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Client;
+use GuzzleHttp\HandlerStack;
+use GuzzleHttp\Subscriber\Oauth\Oauth1;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
