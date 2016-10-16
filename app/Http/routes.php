@@ -37,3 +37,5 @@ Route::get('logout', function() {
     Auth::logout();
     return redirect('/');
 });
+
+Route::get('/yelp/{latitude},{longitude}/{term?}', 'YelpController@show');

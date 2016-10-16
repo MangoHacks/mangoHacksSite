@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "skovmand/mailchimp-laravel": "1.*",
         "guzzlehttp/guzzle": "^6.1",
-        "mailgun/mailgun-php": "~1.7.2"
+        "mailgun/mailgun-php": "~1.7.2",
+        "guzzlehttp/oauth-subscriber": "0.3.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
